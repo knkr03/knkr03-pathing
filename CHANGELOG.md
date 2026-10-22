@@ -4,16 +4,14 @@
 
 All notable changes to this project are documented here. The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and the project uses [Semantic Versioning](https://semver.org/).
 
-## [Unreleased]
+## [1.0.0] - 2026-10-22
 
-### Changed
+First stable release of **Knkr03's pathing**. Live smoke-tested on Foundry 13.351 with dnd5e 5.3.3; the Foundry 14 side of the manual test matrix remains to be run.
 
-- The module's display title is now **Knkr03's pathing**. The module id (`knkr-pathing`), setting keys, API namespace, and localization keys are unchanged, so existing worlds keep their configuration.
+### Renamed
+
+- The module's display title is now **Knkr03's pathing**. The module id (`knkr-pathing`), setting keys, API namespace, and localization keys are unchanged, so existing worlds keep their configuration and an update is a drop-in replacement.
 - The project moved to <https://github.com/knkr03/knkr03-pathing>; the manifest, readme, bugs, and changelog URLs point there.
-
-## [1.0.0] - 2026-10-21
-
-First stable release. Live smoke-tested on Foundry 13.351 with dnd5e 5.3.3; the Foundry 14 side of the manual test matrix remains to be run.
 
 ### Changed
 
