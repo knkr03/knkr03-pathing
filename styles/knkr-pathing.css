@@ -1,0 +1,48 @@
+/*
+ * AI notice: created with AI assistance (Freebuff / Codebuff). See NOTICE.md.
+ *
+ * Canvas previews are drawn with PIXI; these rules only style module UI.
+ */
+
+.knkr-pathing-settings .notes {
+  color: var(--color-text-dark-secondary, #4b4a44);
+  font-size: var(--font-size-12, 12px);
+  line-height: 1.4;
+}
+
+.knkr-pathing-settings .hint {
+  margin-block-start: 0.35rem;
+}
+
+.knkr-pathing-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  align-items: center;
+  font-size: var(--font-size-12, 12px);
+}
+
+.knkr-pathing-legend .swatch {
+  display: inline-block;
+  inline-size: 0.75rem;
+  block-size: 0.75rem;
+  border-radius: 50%;
+  margin-inline-end: 0.25rem;
+  vertical-align: middle;
+}
+
+.knkr-pathing-legend .swatch.normal {
+  background: #48c8ff;
+}
+
+.knkr-pathing-legend .swatch.squeeze {
+  background: #ffab3d;
+}
+
+.knkr-pathing-legend .swatch.blocked {
+  background: #ff5555;
+}
+
+.knkr-pathing-legend .swatch.contact {
+  background: #ff7a7a;
+}
